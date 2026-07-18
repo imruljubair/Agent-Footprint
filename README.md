@@ -201,18 +201,3 @@ file-types.mjs             Friendly file-type labels
 tests/                     Automated behavior and privacy checks
 start-footprint.command    macOS launcher
 ```
-
-## Publish to GitHub
-
-Create an empty repository on GitHub, then run from this folder:
-
-```bash
-git init
-git add .
-git commit -m "Initial Agent Footprint release"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/agent-footprint.git
-git push -u origin main
-```
-
-Replace `YOUR_USERNAME` with the owning account or organization. Review the files before publishing and choose a license if you want others to reuse or redistribute the code.
